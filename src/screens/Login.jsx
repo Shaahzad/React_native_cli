@@ -18,7 +18,7 @@ const Login = () => {
         </TouchableOpacity>
       </View>
       <TouchableOpacity style={{paddingHorizontal:25, paddingVertical:20}}>
-        <Text style={{fontSize:15, color:'gray'}}>Already have an account? login</Text>
+        <Text style={{fontSize:15, color:'gray'}}>Already have an account? Login</Text>
       </TouchableOpacity>
     </ScrollView>
   )
