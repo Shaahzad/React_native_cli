@@ -7,7 +7,7 @@ const App = () => {
   return (
     <View style={{flex:1}}>
     <StatusBar backgroundColor={'#00ff99'}/>
-    {/* <Login/> */}
+    <Login/>
     <Header/>
     </View>
   )
