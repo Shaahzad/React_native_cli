@@ -8,7 +8,7 @@ const App = () => {
     <View style={{flex:1}}>
     <StatusBar backgroundColor={'#00ff99'}/>
     <Login/>
-    <Header/>
+    {/* <Header/> */}
     </View>
   )
 }
