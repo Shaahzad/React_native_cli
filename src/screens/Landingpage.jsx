@@ -46,6 +46,15 @@ const Landingpage = () => {
     </View>
   )
 }
+
+
+const Card = ({bgcolor, title, icon}) => {
+  return(
+    <View>
+      <Text style={{textAlign: 'right'}}>{title}</Text>
+    </View>
+  )
+}
 const styles = StyleSheet.create({
     container: {
         flex: 1,
