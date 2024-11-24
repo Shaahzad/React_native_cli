@@ -29,6 +29,20 @@ const Landingpage = () => {
    
 
    {/* Bottom Container */}
+   <View style={styles.BottomContainer}>
+   <View style={styles.row}>
+    <View style={styles.card}></View>
+    <View style={styles.card}></View>
+   </View>
+   <View style={styles.row}>
+   <View style={styles.card}></View>
+    <View style={styles.card}></View>
+   </View>
+   <View style={styles.row}>
+   <View style={styles.card}></View>
+    <View style={styles.card}></View>
+   </View>
+   </View>
     </View>
   )
 }
@@ -78,6 +92,22 @@ const styles = StyleSheet.create({
       shadowRadius: 1.00,
       elevation: 1,
       marginHorizontal: 20
+    },
+    BottomContainer:{
+      flex: 1,
+      margin: 20,
+      gap: 15
+    },
+    row: {
+      flex:1,
+      flexDirection: 'row',
+      gap: 15
+    },
+    card: {
+      flex: 1,
+      borderWidth:1,
+      borderColor: 'blue',
+      borderRadius: 15
     }
 })
 
