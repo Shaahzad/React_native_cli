@@ -35,12 +35,12 @@ const Landingpage = () => {
     <Card title={'Ride'} bgcolor={'#ccc'} icon={'bike-scooter'}/>
    </View>
    <View style={styles.row}>
-   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'car-sport-sharp'}/>
-   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'car-sport-sharp'}/>
+   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'electric-car'}/>
+   <Card title={'Ride'} bgcolor={'#ccc'} icon={'bike-scooter'}/>
    </View>
    <View style={styles.row}>
-   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'car-sport-sharp'}/>
-   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'car-sport-sharp'}/>
+   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'electric-car'}/>
+   <Card title={'Ride'} bgcolor={'#ccc'} icon={'bike-scooter'}/>
    </View>
    </View>
     </View>
