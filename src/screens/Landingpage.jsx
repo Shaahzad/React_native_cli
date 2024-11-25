@@ -31,16 +31,16 @@ const Landingpage = () => {
    {/* Bottom Container */}
    <View style={styles.BottomContainer}>
    <View style={styles.row}>
-    <View style={styles.card}></View>
-    <View style={styles.card}></View>
+    <Card title={'carpool'} bgcolor={'#00ff99'} icon={'electric-car'}/>
+    <Card title={'Ride'} bgcolor={'#ccc'} icon={'bike-scooter'}/>
    </View>
    <View style={styles.row}>
-   <View style={styles.card}></View>
-    <View style={styles.card}></View>
+   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'car-sport-sharp'}/>
+   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'car-sport-sharp'}/>
    </View>
    <View style={styles.row}>
-   <View style={styles.card}></View>
-    <View style={styles.card}></View>
+   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'car-sport-sharp'}/>
+   <Card title={'carpool'} bgcolor={'#00ff99'} icon={'car-sport-sharp'}/>
    </View>
    </View>
     </View>
@@ -50,8 +50,9 @@ const Landingpage = () => {
 
 const Card = ({bgcolor, title, icon}) => {
   return(
-    <View>
+    <View style={[styles.card, {backgroundColor: bgcolor}]}> 
       <Text style={{textAlign: 'right'}}>{title}</Text>
+      <MaterialIcons name={icon} size={70} color="black" />
     </View>
   )
 }
@@ -114,9 +115,9 @@ const styles = StyleSheet.create({
     },
     card: {
       flex: 1,
-      borderWidth:1,
-      borderColor: 'blue',
-      borderRadius: 15
+      borderRadius: 15,
+      padding: 10,
+      justifyContent: 'space-between'
     }
 })
 
