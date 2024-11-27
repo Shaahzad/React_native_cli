@@ -73,7 +73,8 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       letterSpacing: 3,
       fontSize: 21,
-      paddingHorizontal: 16      
+      paddingHorizontal: 16 ,
+      color: '#00ff99'     
     },
     bannerimgview:{
       height: SCREEN_HEIGHT / 3.7,
