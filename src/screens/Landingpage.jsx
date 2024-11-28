@@ -23,8 +23,14 @@ const Landingpage = () => {
       </View>
   {/* info view */}
   <View style={styles.infoview}>
+    <View style={styles.infoviewchild}>
   <MaterialIcons name="attach-money" size={24} color="green" />
+  <Text>$100</Text>
+    </View>
+    <View style={styles.infoviewchild}>
   <MaterialIcons name="message" size={24} color="green" />
+   <Text>5</Text>
+    </View>
   </View>
    
 
@@ -103,6 +109,11 @@ const styles = StyleSheet.create({
       shadowRadius: 1.00,
       elevation: 1,
       marginHorizontal: 20
+    },
+    infoviewchild:{
+      flexDirection: 'row',
+       gap: 6,
+      alignItems: 'center'
     },
     BottomContainer:{
       flex: 1,
