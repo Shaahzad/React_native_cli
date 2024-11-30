@@ -8,10 +8,10 @@ const initialState = {
     initialState,
     reducers: {
       lightTheme: (state) => {
-        state.value = "light"
+        state.value = "Light"
       },
       darkTheme: (state) => {
-        state.value = "dark"
+        state.value = "Dark"
       },
     },
   })
